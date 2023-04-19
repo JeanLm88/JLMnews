@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type=".png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia</title>
+</head>
+
+<body>
+
+    <div class="body">
+        <header class="header">
+            <div class="header-start">
+                <button class="button-menu" id="buttonmen"><img src="assets/IMG/menu.png" class="img-menu"></button>
+
+            </div>
+            <a href="#" class="logo-area">
+                <img src="assets/IMG/logo.png" class="logo">
+            </a>
+            <div class="header-end">
+                <div class="areasearch">
+                    <div class="search-content">
+                        <img src="assets/IMG/pesquisa.png" class="logo-pesquisa">
+                        <input type="search" id="buscador" class="search" onclick="clicarsearch()" placeholder="BUSCAR">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div id="background" onclick="fecharmenu()"></div>
+        <nav class="nav-menu">
+            <ul>
+                <li class="title-menu">
+                    <h1><img src="assets/IMG/menu.png" width="15px" height="15px"> Menu</h1>
+                </li>
+                <li><a href="" class="nav-link">Editorias</a></li>
+                <li><a href="" class="nav-link">Principais noticiários</a></li>
+                <li><a href="" class="nav-link">Blogs e colunas</a></li>
+                <li><a href="" class="nav-link">Vídeos</a></li>
+                <li><a href="" class="nav-link">Ao vivo</a></li>
+                <li><a href="" class="nav-link">Nacional</a></li>
+                <li><a href="" class="nav-link">Internacional</a></li>
+                <li><a href="" class="nav-link">Economia</a></li>
+                <hr class="linha-menu">
+                <li><a href="" class="nav-link">Sobre</a></li>
+                <li><a href="" class="nav-link">Entre em contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="section-page">
+            <div id="background" onclick="fecharmenu()"></div>
+            
+            <article class="noticias">
+                
+            <div class="titulo"><h1 class="title-not">EXTRA</h1></div>
+                <div class="box">
+                    <img src="assets/img/projeto.png" alt="img-n1" class="img1">
+                    <div class="container1">
+                        <span class="text">URGENTE:</span><br>
+                        <h2 class="text"><a href="#">Aluno faz o melhor trabalho que o professor já viu e recebe nota
+                                máxima!</a></h2>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/carroparado.webp" alt="img-n2" class="img2">
+                    <div class="container2">
+                        <span class="text">URGENTE:</span><br>
+                        <h2 class="text"><a href="#">Carro parado bate a 100km/h</a></h2>
+                    </div>
+
+
+                </div>
+            </article>
+            <article class="noticias-aovivo">
+                <div class="titulo"><h1 class="title-aovivo">VÍDEOS</h1></div>
+                <div class="box" onpointermove="sumirtexto(1)" onmouseout="aparecertexto(1)">
+                    <video src="assets/img/video1.mp4" controls width="100%" height="100%" id="video1"></video>
+                    <div class="container-textvideo1">
+                        <h2 class="text"><a href="#">QUEDA AIRBUS FRANCE</a></h2>
+                    </div>
+                
+                </div>
+                <div class="box" onpointermove="sumirtexto(2)" onmouseout="aparecertexto(2)">
+                    <video src="assets/img/video2.mp4" controls width="100%" height="100%" id="video2"></video>
+                    <div class="container-textvideo2">
+                        <h2 class="text"><a href="#">FAMÍLIA DAS VITÍMAS DO ACIDENTE DO AIRFRANCE MOSTRAM..</a></h2>
+                    </div>
+                </div>
+                <div class="box" onpointermove="sumirtexto(3)" onmouseout="aparecertexto(3)">
+                    <video src="assets/img/video3.mp4" controls width="100%" height="100%" id="video3"></video>
+                    <div class="container-textvideo3">
+                        <h2 class="text"><a href="#">THIAGO BRENNAND É PRESO..</a></h2>
+                    </div>
+                </div>
+                
+                <div class="box" onpointermove="sumirtexto(4)" onmouseout="aparecertexto(4)">
+                    <video src="assets/img/video4.mp4" controls width="100%" height="100%" id="video4"></video>
+                    <div class="container-textvideo4">
+                        <h2 class="text"><a href="#">CASO AIRBUS DA FRANÇA..</a></h2>
+                    </div>
+                </div>
+                
+            </article>
+            <hr>
+
+            <section class="noticia">
+                <div class="box-not">
+                    <img src="assets/img/noticia1" alt="img-n3" class="img-n2" width="400px" height="250px">
+                    <div class="noticia-min"><span class="t-n2">Nova queda</span><br>
+                        <h2 class="t-n2"><a href="#">Dólar vai a R$ 4,95 após inflação abaixo do esperado nos EUA</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="text-notice">
+
+                    <div class="box-title">
+                        <span class="title-n2">Nova queda</span>
+                    </div>
+
+                    <h2><a href="http://">Dólar vai a R$ 4,95 após inflação abaixo do esperado nos EUA</a></h2>
+
+                </div>
+
+            </section>
+            <hr>
+            <section class="noticia">
+                <div class="box-not">
+                    <img src="assets/img/noticia2.webp" alt="img-n3" class="img-n2" width="400px" height="250px">
+                    <div class="noticia-min"><span class="t-n2">Gato na vida do crime</span><br>
+                        <h2 class="t-n2"><a href="#">Gato foi detido após ser pego em flagrante roubando peixe da semana santa da vizinha!</a></h2>
+                    </div>
+                </div>
+                <div class="text-notice">
+                    <div class="box-title">
+                        <span class="title-n2">Gato na vida do crime</span>
+                    </div>
+                    <h2><a href="http://">Gato foi detido após ser pego em flagrante roubando peixe da semana santa da vizinha!</a>
+                    </h2>
+                </div>
+
+            </section>
+            <hr>
+            <section class="noticia">
+                <div class="box-not">
+                    <img src="assets/img/noticia3.webp" alt="img-n3" class="img-n2" width="400px" height="250px">
+                    <div class="noticia-min"><span class="t-n2">Bandido sim, Feio nunca</span><br>
+                        <h2 class="t-n2"><a href="#">Rapaz foragido da polícia pede para os polícias trocarem a foto que
+                                estão..</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="text-notice">
+                    <div class="box-title">
+                        <span class="title-n2">Bandido sim, Feio nunca</span>
+                    </div>
+                    <h2><a href="http://">Rapaz foragido da polícia pede para os polícias trocarem a foto que estão
+                            divulgando dele pois ele está feio na foto.</a></h2>
+                </div>
+            </section>
+        </section>
+    </div>
+    <footer class="footer">
+       
+        <div class="footer-esquerda">
+            <img src="assets/img/logo.png" alt="logo" width="70px" height="70px">
+            <p>&copy; Copyright 2000-2023 Globo Comunicação e Participações S.A</p>
+        </div>
+        <div class="footer-direita">
+            <ul>
+                <li class="links-footer"><a href="">sobre |</a></li>
+                <li class="links-footer"><a href="">anuncie conosco |</a></li>
+                <li class="links-footer"><a href="">contato |</a></li>
+                <li class="links-footer"><a href="">princípios editoriais |</a></li>
+                <li class="links-footer"><a href="">política de privacidade |</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
